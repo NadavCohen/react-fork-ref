@@ -16,7 +16,7 @@ npm install react-fork-ref --save
 
 Function Component
 
-```typescript jsx
+```tsx
 import {FC, useRef, Ref} from "react"
 import forkRef from "react-fork-ref";
 
@@ -39,7 +39,7 @@ const SampleComponent: FC<SampleComponentProps> = ({externalRef}) => {
 
 Class Component
 
-```typescript jsx
+``tsx
 import {Component, createRef, Ref, RefObject} from "react"
 import forkRef from "react-fork-ref";
 
