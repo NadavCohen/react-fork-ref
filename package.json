@@ -1,0 +1,41 @@
+{
+  "name": "react-fork-ref",
+  "author": "Nadav Cohen",
+  "version": "1.0.0",
+  "description": "Maintain multiple refs to a single react element",
+  "homepage": "https://github.com/NadavCohen/react-fork-ref#readme",
+  "license": "MIT",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "files": [
+    "/dist"
+  ],
+  "scripts": {
+    "build": "tsc",
+    "publish-lib": "yarn build && npm publish",
+    "publish-beta": "yarn build && npm publish --tag beta",
+    "publish-dryrun": "yarn build && npm publish --dry-run"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/NadavCohen/react-fork-ref.git"
+  },
+  "keywords": [
+    "react",
+    "ref",
+    "multi",
+    "fork",
+    "multiple",
+    "refs",
+    "typescript",
+    "component"
+  ],
+  "bugs": {
+    "url": "https://github.com/NadavCohen/react-fork-ref/issues"
+  },
+  "devDependencies": {
+    "typescript": "^2.9.1",
+    "@types/react": "^16.8.0"
+  },
+  "dependencies": {}
+}
