@@ -39,7 +39,7 @@ const SampleComponent: FC<SampleComponentProps> = ({externalRef}) => {
 
 Class Component
 
-``jsx
+```jsx
 import {Component, createRef, Ref, RefObject} from "react"
 import forkRef from "react-fork-ref";
 
